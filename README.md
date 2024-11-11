@@ -1,9 +1,29 @@
 
 # Unstructured Finite Volume Solver
 
-This project implements a simple unstructured Finite Volume solver designed to simulate fluid dynamics or other physical processes on unstructured meshes. The solver reads a mesh file, runs a simulation, and generates an output movie to visualize the results.
+This project implements a complex unstructured Finite Volume solver designed to simulate heat trasfer on unstructured meshes. The solver reads a mesh file, runs a simulation for a specific period of time, and generates an output movie to visualize the results.
+
+# Temperature distribution across a heat sink
+
+1. Temperature distribution across a heat sink without the grid:
 
 <img width="631" alt="image" src="https://github.com/user-attachments/assets/631a7795-acbb-4302-b7b5-9c2623a7f494">
+
+
+
+
+2. Temperature distribution across a heat sink without the grid:
+
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/2efac5da-f264-402b-93ee-1a12e074072c">
+
+
+
+
+3. Temperature distribution in a cross-section of the heat sink fin:
+
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/b2bda76e-fc03-4996-a580-a0fd12d79124">
+
+
 
 
 # Project Overview
