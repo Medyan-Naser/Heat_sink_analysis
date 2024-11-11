@@ -3,6 +3,9 @@
 
 This project implements a simple unstructured Finite Volume solver designed to simulate fluid dynamics or other physical processes on unstructured meshes. The solver reads a mesh file, runs a simulation, and generates an output movie to visualize the results.
 
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/631a7795-acbb-4302-b7b5-9c2623a7f494">
+
+
 # Project Overview
 
 The solver operates on unstructured mesh grids, using a finite volume method to solve for physical quantities over the mesh. It is implemented in C++ and consists of the following key components:
