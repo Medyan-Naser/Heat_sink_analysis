@@ -7,32 +7,30 @@ This project implements a complex unstructured Finite Volume solver designed to 
 
 In this section, we compare two heat sink designs to show the effectiveness of longer fins for better heat dissipation.
 
-Short fins heat sink:
+
+
+1. Short fins heat sink:
+
+![Demo](short_fins.gif)
 
 
 
-Long fins heat sink:
+2. Long fins heat sink:
+
+![Demo](long_fins.gif)
+
+
 
 # Temperature distribution across a heat sink
 
-![Demo](output.gif)
 
-
-1. Temperature distribution across a heat sink without the grid:
+1. Temperature distribution across a heat sink:
 
 <img width="631" alt="image" src="https://github.com/user-attachments/assets/631a7795-acbb-4302-b7b5-9c2623a7f494">
 
 
 
-
-2. Temperature distribution across a heat sink without the grid:
-
-<img width="530" alt="image" src="https://github.com/user-attachments/assets/2efac5da-f264-402b-93ee-1a12e074072c">
-
-
-
-
-3. Temperature distribution in a cross-section of the heat sink fin:
+2. Temperature distribution in a cross-section of the heat sink fin:
 
 <img width="531" alt="image" src="https://github.com/user-attachments/assets/b2bda76e-fc03-4996-a580-a0fd12d79124">
 
