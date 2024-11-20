@@ -3,7 +3,20 @@
 
 This project implements a complex unstructured Finite Volume solver designed to simulate heat trasfer on unstructured meshes. The solver reads a mesh file, runs a simulation for a specific period of time, and generates an output movie to visualize the results.
 
+# Comparing Heat Sink Designs: Short vs. Long Fins
+
+In this section, we compare two heat sink designs to show the effectiveness of longer fins for better heat dissipation.
+
+Short fins heat sink:
+
+
+
+Long fins heat sink:
+
 # Temperature distribution across a heat sink
+
+![Demo](output.gif)
+
 
 1. Temperature distribution across a heat sink without the grid:
 
