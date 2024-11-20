@@ -1,7 +1,13 @@
 
-# Unstructured Finite Volume Solver
+# Heat Sink Analysis
 
 This project implements a complex unstructured Finite Volume solver designed to simulate heat trasfer on unstructured meshes. The solver reads a mesh file, runs a simulation for a specific period of time, and generates an output movie to visualize the results.
+
+# Mesh Visualization
+
+The following illustrate the mesh used in the simulation:
+
+![Demo](heat_sink_mesh.gif)
 
 # Comparing Heat Sink Designs: Short vs. Long Fins
 
