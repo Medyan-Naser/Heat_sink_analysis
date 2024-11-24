@@ -7,7 +7,7 @@ This project implements a complex unstructured Finite Volume solver designed to 
 
 The following illustrate the mesh used in the simulation:
 
-![Demo](heat_sink_mesh.gif)
+![Demo](GIFs/heat_sink_mesh.gif)
 
 # Comparing Heat Sink Designs: Short vs. Long Fins
 
@@ -17,13 +17,13 @@ In this section, we compare two heat sink designs to show the effectiveness of l
 
 1. Short fins heat sink:
 
-![Demo](short_fins.gif)
+![Demo](GIFs/short_fins.gif)
 
 
 
 2. Long fins heat sink:
 
-![Demo](long_fins.gif)
+![Demo](GIFs/long_fins.gif)
 
 
 
