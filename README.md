@@ -15,13 +15,13 @@ In this section, we compare two heat sink designs to show the effectiveness of l
 
 
 
-1. Short fins heat sink:
+## Short fins heat sink:
 
 ![Demo](GIFs/short_fins.gif)
 
 
 
-2. Long fins heat sink:
+## Long fins heat sink:
 
 ![Demo](GIFs/long_fins.gif)
 
@@ -30,13 +30,13 @@ In this section, we compare two heat sink designs to show the effectiveness of l
 # Temperature distribution across a heat sink
 
 
-1. Temperature distribution across a heat sink:
+## Temperature distribution across a heat sink:
 
 <img width="631" alt="image" src="https://github.com/user-attachments/assets/631a7795-acbb-4302-b7b5-9c2623a7f494">
 
 
 
-2. Temperature distribution in a cross-section of the heat sink fin:
+## Temperature distribution in a cross-section of the heat sink fin:
 
 <img width="531" alt="image" src="https://github.com/user-attachments/assets/b2bda76e-fc03-4996-a580-a0fd12d79124">
 
@@ -55,7 +55,7 @@ The solver operates on unstructured mesh grids, using a finite volume method to 
 
 # Classes and Their Properties
 
-1. Unstructured_Mesh
+## Unstructured_Mesh
 The Unstructured_Mesh class is responsible for reading, storing, and managing the mesh data. It handles the mesh's topology and structure.
 
 Key Properties:
@@ -72,7 +72,7 @@ Key Functions:
 	add_neighbours: Add the neighboring cells of a given cell to the cell structure.
 	This class ensures that the mesh data is properly structured and accessible for the solver to work on.
 
-2. Unstructured_FV_Solver
+## Unstructured_FV_Solver
 The Unstructured_FV_Solver class is where the core functionality of the finite volume solver resides. It is responsible for setting up and running the simulation, updating the solution at each time step, and generating the output movie.
 
 Key Properties:
@@ -90,7 +90,7 @@ Key Functions:
 	cross_product: Computes the cross product of two 3D vectors.
 	calc_volume(): Computes the volume for each mesh cell using the determinant of a 3x3 matrix formed by the vectors from the nodes of the volume.
 
-3. Main Program (main.cpp)
+## Main Program (main.cpp)
 The main program serves as the entry point for the project. It initializes the solver with a mesh file, calls the solver to run the simulation, and generates an animation.
 
 Key Steps:
